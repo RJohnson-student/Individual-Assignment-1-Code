@@ -1,0 +1,147 @@
+header{
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+  text-align: center;
+  padding: 3px;
+  box-shadow: 2px 2px 5px rgba(14, 13, 13, 0.901);
+  position: sticky;
+  top: 0;
+  z-index:1000;
+}
+
+nav{
+  background-color: white;
+  overflow: hidden;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  box-shadow: 2px 2px 5px rgba(14, 13, 13, 0.901);
+  border-radius: 20px;
+}
+
+img {
+	border-radius: 30px;
+}
+
+.profilepic:hover {
+	transform: scale(1.5); 
+}
+
+.profilepic {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+	transition: transform .2s; 
+}
+
+.intro {
+  max-width: 1200px;  
+  margin-left: auto;
+  margin-right: auto; 
+}
+
+body {
+	background-color: #F5B8DA;
+}
+
+nav a{
+  color: black;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  padding: 16px;
+  border-radius: 10px;
+  border: 1px solid magenta;
+}
+
+nav a:hover {
+  background-color: pink;
+  color: white;
+}
+
+nav a:visited {
+	color: magenta;
+}
+
+.bookmarks {
+    text-align: center;
+	font-family: "Roboto", sans-serif;
+}
+
+section {
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: white;
+  padding: 20px;
+  margin: 20px;
+  border-radius: 10px;
+  border: 2px solid red;
+  text-align: left;
+  max-width: 40%;
+  flex-wrap: wrap;
+  flex-basis: 30%;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+h2 {
+	text-align: center; 
+}
+
+.port1 {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+
+.descrip-1 {
+	text-align: center; 
+}
+
+.res-1 {
+	display: flex;
+	justify-content: center;
+	padding: 20px;
+}
+
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;  
+  border: 1px solid #ccc; 
+  border-radius: 4px; 
+  box-sizing: border-box; 
+  margin-top: 6px; 
+  margin-bottom: 16px; 
+  resize: vertical; 
+}
+
+
+input[type=submit] {
+  background-color: pink;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: orchid;
+}
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+
+
+
+footer {
+	font-size: 110%;
+	border-radius: 10px;
+	background-color: white;
+	text-align: center;
+	padding: 5px;
+}
